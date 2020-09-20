@@ -18,6 +18,7 @@
 		<java.version>11</java.version>
 		<eureka.version>2.2.2.RELEASE</eureka.version>
 		<reactor.version>3.3.9.RELEASE</reactor.version>
+		<zipkin.version>2.2.5.RELEASE</zipkin.version>
 	</properties>
 
 	<dependencies>
@@ -40,6 +41,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
+			<version>${zipkin.version}</version>
 		</dependency>
 
 		<dependency>
